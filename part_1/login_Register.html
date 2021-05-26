@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="login_Register.css">
+
+</head>
+
+<body>
+
+
+    <div class="cont_wrapper">
+
+        <form class="login_form" action="login.php" method="get" >
+             
+            <h4>Sign In</h4>
+            <label for="usern_">username:</label>
+            <input type="text" name="usern_"><br>
+
+            <label for="passn_">password:</label>
+
+            <input type="password" name="passn_"><br><br>
+
+            <input class="btn" type="submit" value="Sign In" name="log"><br>
+
+        </form>
+
+
+        <form action="Register.php" method="get" style="padding-left: 1rem;">
+
+            <h4>Register</h4>
+            <label for="FullName">FullName:</label><input type="text" name="FullN"><br>
+            <label for="usern">username:</label><input type="text" name="usern"><br>
+            <label for="passn">password:</label><input type="password" name="passn"><br>
+            <label for="confirm">confirm:</label> <input type="password" name="confirm"><br>
+            <label for="emailn"> email:</label> <input type="email" name="emailn"><br>
+            <label for="phn"> phone :</label><input type="tel" name="phn" maxlength="8"><br>
+            <label for="ssnum"> SSNumber :</label><input type="number" name="ssnum" ><br>
+            <label for="birthn"> BirthDate :</label><input type="date" name="birthn"><br>
+
+            <br>
+            <input  class="btn" type="submit" value="Register" name="reg"><br>
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
